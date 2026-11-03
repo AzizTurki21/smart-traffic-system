@@ -1,0 +1,9 @@
+# Replace paths and class names with the dataset used for your own training.
+path: /absolute/path/to/priority-vehicle-dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: ambulance
+  1: police

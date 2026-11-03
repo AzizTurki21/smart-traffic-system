@@ -1,0 +1,9 @@
+raspberry_pi/.env
+*.pem
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+models/*.pt
+datasets/
+runs/

@@ -1,6 +1,6 @@
 # Smart Traffic System (reconstruction)
 
-This is a new implementation based on the 2023â€“24 final-year project report by Mohamed Aziz Turki and Amen Allah Bayoudh. It is not recovered source code and is not a line-for-line copy of the original. The report describes a T-junction prototype with camera-based priority-vehicle detection, traffic-light control, and a LoRa/RFID model vehicle.
+This is a new implementation based on the 2023–24 final-year project report by Mohamed Aziz Turki and Amen Allah Bayoudh. It is not recovered source code and is not a line-for-line copy of the original. The report describes a T-junction prototype with camera-based priority-vehicle detection, traffic-light control, and a LoRa/RFID model vehicle.
 
 **Original project report:** [rapportPFE.pdf](report.pdf)  
 **Extracted prototype photos:** [gallery](assets/photos/)
@@ -31,7 +31,7 @@ More views: [intersection with cameras](assets/photos/intersection-model-cameras
 
 - The report does not include the original source files, trained weights, training images, or the RFID tag UIDs. Those are not recreated here. Add your own model at `models/best.pt`, provide your dataset, and fill in the tag map in the receiver sketch.
 - The report specifies Raspberry Pi GPIOs and general LoRa/RFID wiring, but does not identify the exact Wireless Stick hardware revision or every radio pin. The included sketches target Wireless Stick V1/V2 boards with the SX1276 radio and the classic Arduino `LoRa` library. Wireless Stick V3 uses SX1262 and needs a different radio driver. Confirm the label and board pinout before wiring or compiling.
-- The report's performance result is a prototype measurement: detection delay reportedly fell from about 24â€“27 seconds to 4â€“8 seconds after frame skipping, reduced camera resolution, and multiprocessing. This is not suitable for controlling real road traffic.
+- The report's performance result is a prototype measurement: detection delay reportedly fell from about 24–27 seconds to 4–8 seconds after frame skipping, reduced camera resolution, and multiprocessing. This is not suitable for controlling real road traffic.
 - This project is for a tabletop demonstrator only. It has no certified fail-safe design and must never be connected to public-road signal equipment.
 
 ## Repository layout
@@ -82,5 +82,4 @@ The application defaults to dry-run GPIO output. Set `GPIO_ENABLED=true` only af
 
 ## Acknowledgement
 
-The design details and measured prototype limitations were reconstructed from the project report, *SystÃ¨me Intelligent de gestion du trafic Â« Smart Traffic System Â»*, ISET de RadÃ¨s, academic year 2023/2024. The report credits both authors.
-
+The design details and measured prototype limitations were reconstructed from the project report, *Système Intelligent de gestion du trafic « Smart Traffic System »*, ISET de Radès, academic year 2023/2024. The report credits both authors.
