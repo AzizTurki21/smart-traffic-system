@@ -83,3 +83,7 @@ The application defaults to dry-run GPIO output. Set `GPIO_ENABLED=true` only af
 ## Acknowledgement
 
 The design details and measured prototype limitations were reconstructed from the project report, *Système Intelligent de gestion du trafic « Smart Traffic System »*, ISET de Radès, academic year 2023/2024. The report credits both authors.
+
+---
+
+[©](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&ved=2ahUKEwjzju28hu6XAxXJRv4FHRh3Ig0QFnoECBAQAQ\&url=CAESWAHrOzAVtYcEstJL-hlsYH2cx_UHgieapeL5nBQtUKWwQaRB8lQyJ1UlN9og_Cn8Qde_uZWtOCmSAz24iGijz5qs9WjGyp0szyxoXINP5SwQlImWqFiMGWE\&uoh=2\&usg=AOvVaw3RsaJBv9Ghf9gJTeeFH94z\&opi=89978449) reserved to MAT
